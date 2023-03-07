@@ -1,31 +1,83 @@
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.heroSectionFather{
+.heroSectionFather {
     background: lightgreen;
     min-height: 75vh;
 }
 
-.navbarWrapperMother{
+.heroSectionFather a:hover {
+    color: tomato;
+    text-decoration: underline;
+}
+.navbarWrapperMother {
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 80px;
-    color: aquamarine;
+    color: blue;
 }
 
 .child2 {
-    display: flex;
-    align-items: center;
-    list-style-type: none;
+    display: flex; /* is a position property that sets the position of elements */
+    align-items: center; /* position text or items in the middle */
+    list-style-type: none; /* removes bullet points from a text/list */
+    gap: 40px;
 }
 
 .child2 li a{
-    color:purple;
+    color: white; /* color sets the color of the text */
+    font-size: 20px; /* font-size set
+.child3 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
+.child3 a {
+    color: white; /* color sets the color of the text */
+    text-decoration: none;
+    font-size: 20px; /* font-size sets the size of the text */
+}
+
+.navBtn {
+    height: 35px;
+    width: 80px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
